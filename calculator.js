@@ -12,5 +12,6 @@ function dclear(val)
     document.getElementById("inputText").value=" "
 }
 function back() {
-    document.getElementById("inputText").value=document.getElementById("inputText").value.slice(0,-1)
+    var data=document.getElementById("inputText")
+    data.value=data.value.slice(0,-1)
 }
